@@ -13,7 +13,7 @@ import "antd/dist/antd.css";
 
 function Nav() {
   return (
-    <div className="Nav">
+    <div id="Nav" className="Nav">
 
     </div>
   );

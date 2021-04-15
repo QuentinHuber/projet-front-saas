@@ -2,12 +2,11 @@ import React from "react";
 import "antd/dist/antd.css";
 import { Typography } from "antd";
 import "../styles/_common.less";
-
+import Lists from "../pages/List"
 const { Title } = Typography;
 function Dashboard() {
   return (
-    <>
-      <div className="Dashboard" style={{ margin: "48px" }}>
+      <div id="Dashboard" className="Dashboard">
         <Title>Dashboard</Title>
         <div className="DashboardContain">
           <div className="div1">
@@ -27,19 +26,8 @@ function Dashboard() {
             <p>test</p>
           </div>
         </div>
+        <Lists/>
       </div>
-
-      {/* <Divider orientation="left">Default Size</Divider>
-      <List
-        header={<div>Header</div>}
-        footer={<div>Footer</div>}
-        renderItem={(item) => (
-          <List.Item>
-            <Typography.Text>test </Typography.Text> {item}
-          </List.Item>
-        )}
-      /> */}
-    </>
   );
 }
 
