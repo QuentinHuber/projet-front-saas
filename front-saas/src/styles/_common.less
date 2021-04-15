@@ -28,7 +28,12 @@ button.ant-btn.ant-btn-primary {
     background-color: @green-color;
   }
 }
+h1.ant-typography {
+  font-size: 32px;
+  font-family: @font-family;
 
+  font-weight: @font-weight;
+}
 .spaceTop {
   margin-top: 24px;
 }
@@ -42,10 +47,8 @@ button.ant-btn.ant-btn-primary {
   font-family: @font-family;
   font-size: 16px;
 }
-.logo {
-  position: absolute;
-  left: 16px;
-  top: 16px;
+main.ant-layout-content{
+  width: 100vw !important;
 }
 .ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline {
   margin-top: 60px;
@@ -73,7 +76,9 @@ div.ant-layout-sider-trigger {
   width: 80px;
   margin-right: 16px;
 }
-
+.ant-layout.ant-layout-has-sider {
+  width: 1%;
+}
 .ant-btn.btn-pro {
   box-shadow: 0px 4px 8px rgba(54, 123, 245, 0.16),
     0px 2px 4px rgba(54, 123, 245, 0.24);
@@ -116,11 +121,55 @@ li.ant-menu-item.BottomSettings {
   margin-top: 0px;
 }
 
-.noHover{
+.noHover {
   pointer-events: none;
 }
 .logo {
   position: absolute;
   left: 16px;
   top: 16px;
+}
+.ant-layout-header.site-layout-background {
+  width: 100%;
+}
+
+.div1 {
+  width: 215px;
+  height: 135px;
+  background: @pink-color;
+  opacity: 0.5;
+  border-radius: 16px;
+}
+
+.div2 {
+  width: 215px;
+  height: 135px;
+  background: @blue-color;
+  opacity: 0.5;
+  border-radius: 16px;
+}
+
+.div3 {
+  width: 215px;
+  height: 135px;
+  background: @green-color;
+  opacity: 0.5;
+  border-radius: 16px;
+}
+
+.div4 {
+  width: 215px;
+  height: 135px;
+  background: @orange-color;
+
+  opacity: 0.5;
+  border-radius: 16px;
+}
+.Dashboard{
+  width: 100% !important;
+}
+.DashboardContain{
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
 }
