@@ -29,7 +29,7 @@ function Home() {
 
         <p style={{ width: "100% !important" }}>
           Bienvenue sur RH Delivery veuillez sélectionner un item dans le menu
-          pour naviguer sur le BackOffice.
+          pour naviguer sur le BackOffice
         </p>
       </div>
     </div>

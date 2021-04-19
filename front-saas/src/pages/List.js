@@ -29,7 +29,7 @@ const data = [
     age: 32,
     address: "Sidney No. 1 Lake Park",
     tags: ["cool", "teacher"],
-  },
+  }
 ];
 
 const { Title } = Typography;
@@ -38,7 +38,7 @@ function Lists() {
   return (
     <div id="Lists" className="Lists">
       <Title>Liste des employés</Title>
-      <Table dataSource={data}>
+      <Table className="Large" dataSource={data}>
         <Column title="Employés" dataIndex="Employés" key="Employés" />
         <Column title="Début" dataIndex="age" key="age" />
         <Column title="Fin" dataIndex="address" key="address" />
