@@ -17,7 +17,7 @@ import "./styles/_common.less";
 import "antd/dist/antd.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-const { Content, Header, Sider } = Layout;
+const { Content, Header } = Layout;
 
 function App() {
   return (
@@ -65,7 +65,7 @@ function App() {
                 <Route path="/Lists" exact component={Lists} />
                 <Route path="/" exact component={Home} />
                 <Route path="/Login" exact component={Login} />
-                <Route path="/Calendar" exact component={Cal} />
+                {/* <Route path="/Calendar" exact component={Cal} /> */}
               </AnimatedSwitch>
             </Layout>
           </Router>
